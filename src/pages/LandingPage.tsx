@@ -38,6 +38,7 @@ const LandingPage = () => {
       <div className="frame24-image-container">
         <img src={frame24} alt="Frame 24" className="frame24-image" />
       </div>
+      
 
       <img src={circle8} alt="Circle 8" className="circle8" />
       <img src={circle9} alt="Circle 9" className="circle9" />
