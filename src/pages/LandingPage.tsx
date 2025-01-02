@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import circle8 from '../assets/Circle8.png'; // Import the Circle8 image
 import circle9 from '../assets/Circle9.png'; // Import the Circle9 image
 import company from '../assets/Companies.png'; // Import the Company image
@@ -22,7 +22,7 @@ const LandingPage = () => {
           </p>
         </div>
         <div className="review-container">
-          <p>4.5 (from 200+ reviews)</p>
+          <p>⭐⭐⭐⭐⭐ 4.5 (from 200+ reviews)</p>
         </div>
       </div>
       <div className="company-image-container">
