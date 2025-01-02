@@ -1,5 +1,5 @@
 import React from 'react';
-import Bottombar from '../assets/bottombar.png'; // Import the PNG image as Bottombar
+import Bottombar from '../assets/BottomBar.png'; // Import the PNG image as Bottombar
 
 const Footer: React.FC = () => {
   return (
