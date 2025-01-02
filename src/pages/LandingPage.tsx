@@ -2,8 +2,8 @@
 import circle8 from '../assets/Circle8.png'; // Import the Circle8 image
 import circle9 from '../assets/Circle9.png'; // Import the Circle9 image
 import company from '../assets/Companies.png'; // Import the Company image
-import button2 from '../assets/button2.png'; // Import the Button2 image
-import button1 from '../assets/button1.png'; // Import the Button1 image
+import button2 from '../assets/Button2.png'; // Import the Button2 image
+import button1 from '../assets/Button1.png'; // Import the Button1 image
 import benefits from '../assets/Benefits.png'; // Import the Benefits image
 import frame24 from '../assets/Frame 24.png'; // Import the Frame24 image
 import '../pages.css'; // Import the CSS file for LandingPage styles
