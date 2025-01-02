@@ -1,0 +1,313 @@
+/* Ensure the body takes full height of the viewport */
+body, html {
+  height: 100%; /* Full height */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox layout */
+  flex-direction: column; /* Stack elements vertically */
+}
+
+/* Main content area */
+.main-content {
+  flex-grow: 1; /* Take up remaining space */
+}
+
+/* Header Container */
+.header {
+  width: 1440px; /* Fixed width */
+  height: 90px; /* Fixed height */
+  padding: 0px 43px; /* Padding on left and right */
+  gap: 300px; /* Space between elements inside the header */
+  opacity: 1; /* Set opacity to 1 to make it visible */
+  background-color: #ffffff; /* Background color of the header */
+  display: flex;
+  justify-content: center; /* Center the header content horizontally */
+  align-items: center; /* Vertically center the content */
+  position: relative; /* For absolute positioning of menu and button */
+  z-index: 1;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  width: 48.51px;
+  height: 49.08px;
+  position: absolute; /* Positioning the logo */
+  top: 20.46px;
+  left: 38.25px;
+  opacity: 1; /* Set opacity to 1 to make the logo visible */
+}
+
+/* Menu container */
+.menu {
+  width: 564px;
+  height: 90px;
+  gap: 0px;
+  opacity: 1; /* Set opacity to 1 to make the menu visible */
+  background-color: #ffffff; /* Placeholder background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative; /* Ensure the submenu is positioned relative to this */
+  left: 50%; /* Centering the menu horizontally */
+  transform: translateX(-50%); /* Adjusting for perfect horizontal centering */
+}
+
+/* First menu option: Explore Services */
+.option1 {
+  /* Existing layout styles */
+  width: 188px;
+  height: 90px;
+  padding: 33px 20px;
+  gap: 10px;
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+
+  /* Typography styles */
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.option2 {
+  /* Existing layout styles */
+  width: 141px;
+  height: 90px;
+  padding: 33px 20px;
+  gap: 10px;
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  /* Typography styles */
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.option3 {
+  /* Existing layout styles */
+  width: 149px;
+  height: 90px;
+  padding: 33px 20px;
+  gap: 10px;
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  /* Typography styles */
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.option4 {
+  /* Existing layout styles */
+  width: 86px;
+  height: 90px;
+  padding: 33px 20px;
+  gap: 10px;
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  /* Typography styles */
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* PNG image button */
+.button-image {
+  width: 151px; /* Fixed width */
+  height: 44px; /* Fixed height */
+  gap: 20px; /* Space between image and text (if any) */
+  opacity: 1; /* Set opacity to 1 to make it visible */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute; /* Positioning the button image */
+  right: 64px; /* Adjust this value to position it where you want */
+}
+
+.button-image img {
+  width: 100%; /* Image fills the container */
+  height: auto; /* Maintain aspect ratio of the image */
+}
+
+/* Arrow icon */
+.arrow-icon {
+  width: 12px; /* Fixed width */
+  height: 12px; /* Fixed height */
+  padding: 1px 3.06px; /* Padding for the icon */
+  gap: 0px; /* No gap */
+  opacity: 1; /* Set opacity to make it visible */
+  transform: rotate(0deg); /* Rotate the icon by 90 degrees */
+  margin-left: 8px; /* Add space between the text and the icon */
+}
+
+/* Footer Section */
+.footer {
+  width: 1440px; /* Fixed width */
+  height: 337.53px; /* Fixed height */
+  padding: 48px 65px; /* Padding as provided */
+  gap: 56px; /* Gap between the sections */
+  border-radius: 4px 0px 0px 0px; /* Border radius as provided */
+  background-color: #f5f5f7; /* Background color */
+  display: flex;
+  flex-direction: column; /* Stack sections vertically */
+  align-items: center; /* Center the sections */
+  justify-content: space-between; /* Space between the sections */
+  position: relative; /* Allow positioning of elements */
+  border: none; /* Ensure there's no border */
+  opacity: 1; /* Ensure it's visible */
+  margin-top: auto; /* Push the footer to the bottom */
+  z-index: 0; /* Lower than circle8 */
+}
+
+/* Larger section above */
+.footer-top {
+  width: 1310px; /* Width for the larger section */
+  height: 149.53px; /* Adjusted height for footer menu */
+  padding: 24px 0px; /* Padding as provided */
+  gap: 144px; /* Gap between items */
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Vertically center the items */
+}
+
+/* Footer About Section (on the left) */
+.footer-about {
+  font-weight: 400;
+  font-size: 16px;
+  width: 450px; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-about-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-bottom: 16px; /* Space between title and content */
+}
+
+.footer-about-info {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Footer Menu Section */
+.footer-menu {
+  width: 621px; /* Width as provided */
+  height: 149.53px; /* Height as provided */
+  gap: 107px; /* Gap between columns */
+  opacity: 1; /* Initially visible */
+  display: flex;
+  justify-content: space-between; /* Space columns evenly */
+  align-items: center; /* Vertically center the items */
+}
+
+/* Footer Column 1: Company */
+.footer-column-1 {
+  width: 103px; /* Width as provided */
+  height: 149.53px; /* Height as provided */
+  padding: 0px; /* No padding */
+  gap: 0px; /* No gap */
+  opacity: 1; /* Initially visible */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+}
+
+/* Column Title */
+.column-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-bottom: 16px; /* Space between title and items */
+}
+
+/* Column Items (List) */
+.column-items {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column-items li {
+  margin-bottom: 8px; /* Space between items */
+}
+
+/* Placeholder for other columns */
+.footer-column-2,
+.footer-column-3 {
+  width: 103px; /* Width for other columns */
+  height: 149.53px; /* Height for other columns */
+  padding: 0px; /* No padding */
+  gap: 0px; /* No gap */
+  opacity: 1; /* Initially visible */
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+  white-space: nowrap;
+}
+
+/* Smaller section at the bottom */
+.footer-segment {
+  width: 1310px; /* Width for the smaller section */
+  height: 72px; /* Height as provided */
+  padding: 24px 0px; /* Padding as provided */
+  gap: 144px; /* Gap between items */
+  display: flex;
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Vertically center the items */
+}
+
+/* Footer Image in the smaller section */
+.footer-image {
+  width: 100%; /* Make the image fill the section */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure the image covers the space */
+}
+
+

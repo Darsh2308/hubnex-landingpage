@@ -1,0 +1,212 @@
+.landing-page {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Ensures vertical stacking */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+html, body {
+  overflow-x: hidden; /* Disable horizontal scroll for the entire page */
+}
+
+.circle8 {
+  width: 893px;
+  height: 968.37px;
+  position: absolute;
+  bottom: 0; /* Align bottom edge */
+  left: 1091px;
+  opacity: 1;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.circle9 {
+  width: 476px;
+  height: 434.35px;
+  position: absolute;
+  bottom: 0; /* Align bottom edge */
+  left: 0px;
+  opacity: 1;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; /* Ensures the title and subtitle are stacked */
+  align-items: center;
+  gap: 10px; /* Adds spacing between title and subtitle */
+  margin-bottom: 20px; /* Adds spacing below the text block */
+  position: relative; /* Lock position */
+  z-index: 2; /* Ensures it stays above background elements */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.title-container {
+  width: 1024px;
+  height: 178px;
+  gap: 0px;
+  opacity: 1; /* Ensures visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.title-container p {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 89px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.subtitle-container {
+  width: 768px;
+  height: 60px;
+  gap: 0px;
+  opacity: 1; /* Ensures visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.subtitle-container p {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.review-container {
+  width: 301px; /* Matches "Hug" width */
+  height: 24px; /* Matches "Hug" height */
+  gap: 7px;
+  opacity: 1; /* Ensures visibility */
+  display: flex;
+  justify-content: flex-start; /* Aligns text to the left */
+  align-items: center;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.review-container p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #737373; /* Sets the text color */
+}
+
+/* Company Image Container */
+.company-image-container {
+  width: 1440px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Aligns the image to the bottom */
+  margin-top: 20px; /* Adds spacing above the image */
+  position: absolute;
+  top: 700px; /* Adds distance from the top */
+  z-index: 1; /* Ensures it stays below text content */
+  flex-shrink: 0; /* Prevent shrinking */
+  left: 0px;
+  overflow-x: hidden; /* Prevents scroll in this container */
+}
+
+.company-image {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Benefits Image Container */
+.benefits-image-container {
+  width: 1500px;
+  height: 500.69px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Aligns the image vertically */
+  margin-top: 20px; /* Adds spacing above the image */
+  position: absolute;
+  top: 900px; /* Places it below the company image */
+  z-index: 1; /* Ensures it stays below text content */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.benefits-image {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+/* Frame24 Image Container */
+.frame24-image-container {
+  width: 1410px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Aligns the image vertically */
+  margin-top: 20px; /* Adds spacing above the image */
+  position: absolute;
+  top: 1400px; /* Places it below the benefits image */
+  z-index: 1; /* Ensures it stays below text content */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.frame24-image {
+  width: 1410px; /* Ensures the image fills the container */
+  height: 594px; /* Maintains aspect ratio */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Align buttons horizontally */
+  gap: 0px; /* Adds spacing between the buttons */
+  margin-top: 20px; /* Adds spacing above the buttons */
+}
+
+.button2-container,
+.button1-container {
+  width: 130px; /* Width of the button */
+  height: 54px; /* Height of the button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 18px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  border: 1px solid transparent; /* Border style */
+  opacity: 1; /* Set opacity to 1 */
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.button2 {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto;
+}
+
+.button1 {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto;
+}
+
+/* Locking all containers to prevent shifting */
+.text-container, .company-image-container, .circle8, .circle9, .button2-container, .button1-container, .frame24-image-container {
+  flex-shrink: 0;
+}
+
+.landing-page > * {
+  flex-shrink: 0;
+}
