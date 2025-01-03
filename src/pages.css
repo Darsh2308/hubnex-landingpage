@@ -210,3 +210,382 @@ html, body {
 .landing-page > * {
   flex-shrink: 0;
 }
+
+
+
+.case-study-container {
+  width: 1500px; /* Set the width */
+  height: 572px; /* Set the height */
+  background-color: #f5f5f7; /* Set the background color */
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  margin-top: 20px; /* Adds spacing above the container */
+  position: absolute;
+  top: 2300px; /* Adjusted position to be below the frame24-image-container */
+  z-index: 1; /* Ensures it stays below other elements */
+}
+
+
+.case-study-subcontainer1 {
+  width: 519.25px; /* Set the width */
+  height: 246px; /* Set the height */
+  gap: 26px; /* Adds spacing between items inside the subcontainer */
+  position: absolute; /* Position it relative to the parent container */
+  top: 0; /* Aligns to the top */
+  left: 0; /* Aligns to the left */
+}
+
+
+.case-study-title {
+  width: 389px; /* Set the width */
+  height: 100px; /* Set the height */
+  gap: 0px; /* No gap */
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Set font family */
+  font-size: 40px; /* Set font size */
+  font-weight: 700; /* Set font weight */
+  line-height: 50px; /* Set line height */
+  letter-spacing: -1px; /* Set letter spacing */
+  text-align: left; /* Align text to the left */
+  text-underline-position: from-font; /* Set text underline position */
+  text-decoration-skip-ink: none; /* Ensure no text decoration */
+  background-color: #f5f5f7; /* Set background color */
+  color: #0F172A; /* Set text color to white for contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the text vertically */
+  padding-left: 70px;
+  padding-top: 50px;
+}
+
+
+.case-study-subcontainer-text1 {
+  width: 519.25px; /* Set the width */
+  height: 120px; /* Set the height */
+  gap: 0px; /* No gap */
+  opacity: 1; /* Full opacity */
+  font-family: 'Inter', sans-serif; /* Set font family */
+  font-size: 20px; /* Set font size */
+  font-weight: 400; /* Set font weight */
+  line-height: 30px; /* Set line height */
+  text-align: left; /* Align text to the left */
+  text-underline-position: from-font; /* Set text underline position */
+  text-decoration-skip-ink: none; /* Ensure no text decoration */
+  color: #18181B; /* Set text color */
+  margin-top: 10px; /* Adds spacing between title and subcontainer text */
+  padding-left: 85px;
+}
+
+
+.case-study-subcontainer2 {
+  width: 813px; /* Set the width */
+  height: 472px; /* Set the height */
+  gap: 40px; /* Set the gap between elements */
+  opacity: 1; /* Full opacity */
+  background-color: #f5f5f7; /* Temporary background color to make it visible */
+  margin-left: 700px;
+}
+
+
+/* Subcontainer3 */
+.case-study-subcontainer3 {
+  width: 263px;
+  height: 421px;
+  border-radius: 12.2px 12.2px 12.2px 12.2px;
+  background-color: white;
+  box-shadow: 2px 4px 14.5px 0px #DEDEF5;
+  position: relative;
+  opacity: 1;
+}
+
+.subcontainer3-image {
+  width: 263px;
+  height: 230.15px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12.2px 12.2px 0px 0px;
+}
+
+
+/* Content Title in Subcontainer 3 */
+.subcontainer3-content-title {
+  width: 227px;
+  height: 46px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;  /* Ensures the text is positioned on top of the image */
+  top: 230px;  /* Align the title at the top of the container */
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);  /* Semi-transparent background for visibility */
+  padding: 10px;  /* Padding to give some space around the text */
+  color: black;  /* Ensure text is visible */
+  z-index: 2;  /* Ensure the title is above the image */
+}
+
+
+/* Content Text in Subcontainer 3 */
+.subcontainer3-content-text {
+  width: 231px;
+  height: 54px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;  /* Ensures the text is positioned below the title */
+  top: 290px;  /* Position it right below the content title */
+  left: 10px;
+  color: black;  /* Ensure text is visible */
+  z-index: 2;  /* Ensure the text is above the image */
+}
+
+/* Article Redirect Text in Subcontainer 3 */
+.subcontainer3-article-redirect {
+  width: 110px;
+  height: 16px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15.45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;  /* Ensures the text is positioned below the content text */
+  top: 400px;  /* Align the text below the content text */
+  left: 10px;
+  color: black;  /* Ensure text is visible */
+  z-index: 2;  /* Ensure the text is above the background */
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Subcontainer 4 */
+.case-study-subcontainer4 {
+  width: 263px;
+  height: 421px;
+  border-radius: 12.2px 12.2px 12.2px 12.2px;
+  background-color: white;
+  box-shadow: 2px 4px 14.5px 0px #DEDEF5;
+  position: absolute; /* Positioning absolute to place it correctly inside subcontainer2 */
+  top: 50px; /* Same as subcontainer3 to align it */
+  left: 990px; /* Shift subcontainer4 to the right of subcontainer3 (adjust as needed) */
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Image in Subcontainer 4 */
+.subcontainer4-image {
+  width: 263px;
+  height: 230.15px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12.2px 12.2px 0px 0px;
+}
+
+/* Content Title in Subcontainer 4 */
+.subcontainer4-content-title {
+  width: 227px;
+  height: 46px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  top: 230px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  color: black;
+  z-index: 2;
+}
+
+/* Content Text in Subcontainer 4 */
+.subcontainer4-content-text {
+  width: 231px;
+  height: 54px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  color: black;
+  z-index: 2;
+}
+
+/* Article Redirect Text in Subcontainer 4 */
+.subcontainer4-article-redirect {
+  width: 110px;
+  height: 16px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15.45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  color: black;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+
+
+
+
+
+
+/* Subcontainer 5 */
+.case-study-subcontainer5 {
+  width: 263px;
+  height: 421px;
+  border-radius: 12.2px 12.2px 12.2px 12.2px;
+  background-color: white;
+  box-shadow: 2px 4px 14.5px 0px #DEDEF5;
+  position: absolute; /* Positioning absolute to place it correctly inside subcontainer2 */
+  top: 50px; /* Same as subcontainer3 to align it */
+  left: 1285px; /* Shift subcontainer4 to the right of subcontainer3 (adjust as needed) */
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Image in Subcontainer 5 */
+.subcontainer5-image {
+  width: 263px;
+  height: 230.15px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12.2px 12.2px 0px 0px;
+}
+
+/* Content Title in Subcontainer 5 */
+.subcontainer5-content-title {
+  width: 227px;
+  height: 46px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  top: 230px;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  color: black;
+  z-index: 2;
+}
+
+/* Content Text in Subcontainer 5 */
+.subcontainer5-content-text {
+  width: 231px;
+  height: 54px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  color: black;
+  z-index: 2;
+}
+
+/* Article Redirect Text in Subcontainer 5 */
+.subcontainer5-article-redirect {
+  width: 110px;
+  height: 16px;
+  gap: 0px;
+  opacity: 1;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 15.45px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  position: absolute;
+  top: 400px;
+  left: 10px;
+  color: black;
+  z-index: 2;
+  white-space: nowrap;
+}
+
+
+.rectangle {
+  width: 178px;
+  height: 11px;
+  position: absolute;
+  top: 510px;
+  left: 1030px;
+  gap: 0px;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 1;
+  background-color: #EAEAEA; /* Adjust color as needed */
+}
+
+
+.rectangle1 {
+  width: 61px;
+  height: 11px;
+  position: absolute;
+  top: 510px;
+  left: 1090px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #414141;
+}

@@ -6,6 +6,7 @@ import button2 from '../assets/Button2.png'; // Import the Button2 image
 import button1 from '../assets/Button1.png'; // Import the Button1 image
 import benefits from '../assets/benefits.png'; // Import the Benefits image
 import frame24 from '../assets/Frame 24.png'; // Import the Frame24 image
+import subcontainer3Image from '../assets/casestudycontainer.png'; // Import the Subcontainer3 image
 import '../pages.css'; // Import the CSS file for LandingPage styles
 
 const LandingPage = () => {
@@ -38,7 +39,83 @@ const LandingPage = () => {
       <div className="frame24-image-container">
         <img src={frame24} alt="Frame 24" className="frame24-image" />
       </div>
-      
+
+      {/* Case Study Container */}
+      <div className="case-study-container">
+        {/* Subcontainer 1 */}
+        <div className="case-study-subcontainer1">
+          <div className="case-study-title">
+            Case studies for the <br /> community
+          </div>
+          <div className="case-study-subcontainer-text1">
+            Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+          </div>
+        </div>
+
+        {/* Subcontainer 2 */}
+        <div className="case-study-subcontainer2">
+          {/* Subcontainer 3 */}
+          <div className="case-study-subcontainer3">
+            <img
+              src={subcontainer3Image}
+              alt="Subcontainer 3"
+              className="subcontainer3-image"
+            />
+            <div className="subcontainer3-content-title">
+              What is Ad Exposure and Why It <br />Matters?
+            </div>
+            <div className="subcontainer3-content-text">
+              Lorem ipsumLorem ipsumLorem <br /> ipsumLorem ipsumLorem ipsumLorem <br />ipsum
+            </div>
+            {/* Article Redirect Text */}
+            <div className="subcontainer3-article-redirect">
+              Read Full Article↗
+            </div>
+          </div>
+
+          {/* Subcontainer 4 */}
+          <div className="case-study-subcontainer4">
+            <img
+              src={subcontainer3Image}
+              alt="Subcontainer 4"
+              className="subcontainer4-image"
+            />
+            <div className="subcontainer4-content-title">
+              What is Ad Exposure and Why It <br />Matters?
+            </div>
+            <div className="subcontainer4-content-text">
+              Lorem ipsumLorem ipsumLorem <br /> ipsumLorem ipsumLorem ipsumLorem <br />ipsum
+            </div>
+            {/* Article Redirect Text */}
+            <div className="subcontainer4-article-redirect">
+              Read Full Article↗
+            </div>
+          </div>
+
+          {/* Subcontainer 5 */}
+          <div className="case-study-subcontainer5">
+            <img
+              src={subcontainer3Image}
+              alt="Subcontainer 5"
+              className="subcontainer5-image"
+            />
+            <div className="subcontainer5-content-title">
+              What is Ad Exposure and Why It <br />Matters?
+            </div>
+            <div className="subcontainer5-content-text">
+              Lorem ipsumLorem ipsumLorem <br /> ipsumLorem ipsumLorem ipsumLorem <br />ipsum
+            </div>
+            {/* Article Redirect Text */}
+            <div className="subcontainer5-article-redirect">
+              Read Full Article↗
+            </div>
+          </div>
+
+          {/* Rectangle Added Below Subcontainer 2 */}
+          <div className="rectangle"></div>
+          <div className="rectangle1"></div>
+        </div>
+      </div>
 
       <img src={circle8} alt="Circle 8" className="circle8" />
       <img src={circle9} alt="Circle 9" className="circle9" />
