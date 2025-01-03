@@ -589,3 +589,131 @@ html, body {
   border-radius: 20px 20px 20px 20px;
   background-color: #414141;
 }
+  /*****************************************************************************************************************************/
+  .call-to-action-container {
+    background-color: white;
+    height: 1000px; /* Adjust the height as needed */
+    padding: 100px; /* Add padding for some space inside */
+    position:absolute; /* Fix the container in place */
+    top: 2900px; /* Shift it downwards by 500px (adjust as needed) */
+    width: 100%; /* Ensure it spans the full width */
+  }
+    
+
+  .ReviewList {
+    width: 761px;
+    height: 113.3px;
+    gap: 0px;
+    opacity: 1;
+    margin-left: 400px;
+  }
+
+  .ReviewListTitle {
+    width: 901.8px;
+    height: 112px;
+    gap: 20px;
+    opacity: 1;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55.8px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 40px;
+    margin-left: 300px;
+  }
+
+  /* New review2 image styling */
+.review2 {
+  width: 422.48px;
+  height: 78px;
+  gap: 16px;
+  opacity: 1;
+  margin-top: 20px;
+  margin-left: 550px;
+}
+
+.connect-sales-button1 {
+  width: 148px;
+  height: 47px;
+  gap: 0px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px 1px 1px 1px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  line-height: 47px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: 670px;
+  background-color: #1D4ED8;
+}
+
+
+.subtitle-below-nav {
+  width: 907px;
+  height: 44px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 130px;
+  margin-left: 300px;
+}
+
+
+.subtitle2-below-nav {
+  width: 903px;
+  height: 80px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #667085;
+  margin-top: 20px;
+  margin-left: 300px;
+}
+
+.connect-sales-button2 {
+  width: 148px;
+  height: 47px;
+  gap: 0px;
+  border-radius: 4px 4px 4px 4px;
+  border: 1px 1px 1px 1px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 47px;
+  cursor: pointer;
+  margin-top: 0px;
+  margin-left: 670px;
+  background-color: #ffffff;
+}
+
+
+/* CSS for the new image in the call-to-action-container */
+.exp-image {
+  width: 1057px;
+  height: 121.62px;
+  gap: 82.36px;
+  opacity: 1;
+  margin-top: 50px;
+  margin-left: 250px;
+}

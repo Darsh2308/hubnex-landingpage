@@ -1,4 +1,3 @@
-//import React from 'react';
 import circle8 from '../assets/Circle8.png'; // Import the Circle8 image
 import circle9 from '../assets/Circle9.png'; // Import the Circle9 image
 import company from '../assets/Companies.png'; // Import the Company image
@@ -7,6 +6,9 @@ import button1 from '../assets/Button1.png'; // Import the Button1 image
 import benefits from '../assets/benefits.png'; // Import the Benefits image
 import frame24 from '../assets/Frame 24.png'; // Import the Frame24 image
 import subcontainer3Image from '../assets/casestudycontainer.png'; // Import the Subcontainer3 image
+import reviewList from '../assets/Review List.png'; // Import the Review List image
+import review2 from '../assets/review2.png'; // Import the Review 2 image
+import exp from '../assets/exp.png'; // Import the exp image
 import '../pages.css'; // Import the CSS file for LandingPage styles
 
 const LandingPage = () => {
@@ -115,6 +117,49 @@ const LandingPage = () => {
           <div className="rectangle"></div>
           <div className="rectangle1"></div>
         </div>
+      </div>
+
+      {/* New Call to Action Container */}
+      <div className="call-to-action-container">
+        <img
+          src={reviewList}
+          alt="Review List"
+          className="ReviewList"
+        />
+        <div className="ReviewListTitle">
+          Start building high performing <br />website & grow your business fast.
+        </div>
+        {/* New review2 image below the title */}
+        <img
+          src={review2}
+          alt="Review 2"
+          className="review2"
+        />
+        {/* Removed Nav Items image and added Connect Sales Button */}
+        <button className="connect-sales-button1">
+          Connect Sales<b>→</b>
+        </button>
+        {/* New subtitle below Connect Sales Button */}
+        <div className="subtitle-below-nav">
+          We are big enough to deliver and small enough to care
+        </div>
+
+        {/* New subtitle2 below subtitle-below-nav */}
+        <div className="subtitle2-below-nav">
+          Teams large and small rely on Hubnex Labs
+        </div>
+
+        {/* New Connect Sales Button */}
+        <button className="connect-sales-button2">
+          Connect Sales<b>→</b>
+        </button>
+
+        {/* New image added below the Connect Sales button */}
+        <img
+          src={exp}
+          alt="Experience"
+          className="exp-image"
+        />
       </div>
 
       <img src={circle8} alt="Circle 8" className="circle8" />
