@@ -9,6 +9,10 @@ import subcontainer3Image from '../assets/casestudycontainer.png'; // Import the
 import reviewList from '../assets/Review List.png'; // Import the Review List image
 import review2 from '../assets/review2.png'; // Import the Review 2 image
 import exp from '../assets/exp.png'; // Import the exp image
+import sliderbutton1 from '../assets/sliderbutton1.png'; // Import the Slider Button image
+import sliderbutton2 from '../assets/sliderbutton2.png'; // Import the Slider Button 2 image
+import blogpost1 from '../assets/blogpost1.png'; // Import the BlogPost1 image
+import blogpost2 from '../assets/blogpost2.png'; // Import the BlogPost2 image
 import '../pages.css'; // Import the CSS file for LandingPage styles
 
 const LandingPage = () => {
@@ -160,6 +164,79 @@ const LandingPage = () => {
           alt="Experience"
           className="exp-image"
         />
+
+        {/* New Slider Container */}
+        <div className="slider-container">
+          <div className="slider-title">
+            Driving results for leaders across the globe
+          </div>
+          <div className="slider-subtitle">
+            People now recognise that having a good performance<br />
+            conversation means that something happens as a result.
+          </div>
+          <div className="slider-text">
+            With Landingfolio, the design team can now build design which<br />
+            identifies employees’ career aspirations and goals and from which we<br />
+            approach managers and check to see what is happening.
+          </div>
+          {/* Slider button 1 image positioned wherever you want */}
+          <img
+            src={sliderbutton1}
+            alt="Slider Button 1"
+            className="slider-button1"
+          />
+          {/* Slider button 2 image positioned wherever you want */}
+          <img
+            src={sliderbutton2}
+            alt="Slider Button 2"
+            className="slider-button2"
+          />
+          {/* Slider Name */}
+          <div className="slider-name">
+            Rajat Shina
+          </div>
+          {/* Slider Role */}
+          <div className="slider-role">
+            Product Manager, Sisyphus
+          </div>
+          {/* Rectangle 3 */}
+          <div className="rectangle3">
+            <div className="rectangle4">
+            </div>
+          </div>
+        </div>
+
+        {/* New Blog Container with Title and Text */}
+        <div className="blog-container">
+          <div className="blog-title">
+            Latest Blog Posts
+          </div>
+          <div className="blog-text">
+            Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+          </div>
+
+          {/* New BlogPost1 Container */}
+          <div className="blogpost1">
+            <img src={blogpost1} alt="BlogPost1" className="blogpost1-image" />
+            {/* New Author Text below BlogPost1 image */}
+            <div className="blogpost1-author">
+              Alec Whitten • 17 Jan 2022
+            </div>
+            {/* New Title below Author */}
+            <div className="blogpost1-title">
+              Bill Walsh leadership lessons
+            </div>
+            {/* New Text below Title */}
+            <div className="blogpost1-text">
+              Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?
+            </div>
+          </div>
+
+          {/* New BlogPost2 Container (can be moved anywhere inside the blog-container) */}
+          <div className="blogpost2" style={{ backgroundColor: 'aquamarine', position: 'absolute' }}>
+            <img src={blogpost2} alt="BlogPost2" className="blogpost2-image" />
+          </div>
+        </div>
       </div>
 
       <img src={circle8} alt="Circle 8" className="circle8" />

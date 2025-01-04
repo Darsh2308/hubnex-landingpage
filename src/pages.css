@@ -592,7 +592,7 @@ html, body {
   /*****************************************************************************************************************************/
   .call-to-action-container {
     background-color: white;
-    height: 1000px; /* Adjust the height as needed */
+    height: 2700px; /* Adjust the height as needed */
     padding: 100px; /* Add padding for some space inside */
     position:absolute; /* Fix the container in place */
     top: 2900px; /* Shift it downwards by 500px (adjust as needed) */
@@ -716,4 +716,227 @@ html, body {
   opacity: 1;
   margin-top: 50px;
   margin-left: 250px;
+}
+
+
+.slider-container {
+  background-color: #f9fafb;
+  width: 1500px;
+  height: 600px;
+  gap: 64px;
+  opacity: 1;
+  margin-top: 100px;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* Slider Title Styling */
+.slider-title {
+  width: 907px;
+  height: 44px;
+  gap: 0px;
+  opacity: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 300px;
+}
+
+
+/* CSS for Slider Subtitle */
+.slider-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #090914;
+  margin-top: 60px; /* Adjust space between title and subtitle */
+}
+
+
+/* CSS for Slider Text */
+.slider-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #52525b;
+  margin-top: 20px; /* Adjust space between subtitle and text */
+}
+
+
+.slider-button1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  /* You can adjust these values to position the button wherever you want */
+  top: 300px; /* Example of positioning it 20px from the top */
+  left: 150px; /* Example of positioning it 20px from the left */
+  /* Adjust top, left, right, or bottom properties to change the position */
+}
+
+
+.slider-button2 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  /* You can adjust these values to position the button wherever you want */
+  top: 300px; /* Example of positioning it 20px from the top */
+  right: 150px;
+}
+
+
+.slider-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #101828;
+  margin-top: 40px;
+}
+
+.slider-role {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #667085;
+  margin-top: 5px; /* Adjust as needed */
+}
+
+.rectangle3 {
+  width: 178px;
+  height: 11px;
+  gap: 0px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #eaeaea;
+  margin: auto;
+  margin-top: 60px;
+}
+
+
+.rectangle4 {
+  width: 61px;
+  height: 11px;
+  gap: 0px;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #414141;
+  margin: auto;
+  margin-top: 0px;
+}
+/*********************************************************************************************************************************************/
+
+
+.blog-container {
+  width: 1500px;
+  height: 716px;
+  opacity: 1;
+  background-color: #f5f5f7;
+  margin-top: 150px; /* Adjust this value as needed */
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.blog-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -1px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #0F172A;
+}
+
+.blog-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #18181b;
+  margin-top: 20px;
+}
+
+.blogpost1 {
+  width: 405.33px;
+  height: 396px;
+  gap: 32px;
+  opacity: 1;
+  background-color: #f5f5f7;
+  margin-top: 50px;
+}
+.blogpost1-image {
+  width: 405.33px;
+  height: 240px;
+}
+
+.blogpost1-author {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #1D4ED8;
+}
+
+.blogpost1-title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #101828;
+  margin-top: 20px;
+}
+
+.blogpost1-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #667085;
+  margin-top: 20px;
+}
+
+
+.blogpost2 {
+  width: 405.33px;
+  height: 396px;
+  background-color: aquamarine;
+  top: 2155px;
+  left: 650px;
+}
+
+.blogpost2-image {
+  width: 100%;
+  height: auto;
 }
