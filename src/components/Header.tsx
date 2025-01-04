@@ -1,6 +1,5 @@
 import React from 'react';
 import HubnexLogo from '../assets/HubnexLogo.png';
-import ButtonImage from '../assets/Nav items.png';
 import ArrowIcon from '../assets/arrow_back_ios_new.png'; // Importing the arrow icon
 
 const Header: React.FC = () => {
@@ -29,9 +28,9 @@ const Header: React.FC = () => {
           <div className="option4">About</div>
         </div>
 
-        {/* Button Image */}
-        <div className="button-image">
-          <img src={ButtonImage} alt="Button Image" />
+        {/* Contact Sales Button */}
+        <div className="contact-sales-button">
+          <button className="contact-sales-btn">Contact Sales</button>
         </div>
       </div>
     </header>

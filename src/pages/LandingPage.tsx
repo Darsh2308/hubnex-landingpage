@@ -2,7 +2,6 @@ import circle8 from '../assets/Circle8.png'; // Import the Circle8 image
 import circle9 from '../assets/Circle9.png'; // Import the Circle9 image
 import company from '../assets/Companies.png'; // Import the Company image
 import button2 from '../assets/Button2.png'; // Import the Button2 image
-import button1 from '../assets/Button1.png'; // Import the Button1 image
 import benefits from '../assets/benefits.png'; // Import the Benefits image
 import frame24 from '../assets/Frame 24.png'; // Import the Frame24 image
 import subcontainer3Image from '../assets/casestudycontainer.png'; // Import the Subcontainer3 image
@@ -13,6 +12,7 @@ import sliderbutton1 from '../assets/sliderbutton1.png'; // Import the Slider Bu
 import sliderbutton2 from '../assets/sliderbutton2.png'; // Import the Slider Button 2 image
 import blogpost1 from '../assets/blogpost1.png'; // Import the BlogPost1 image
 import blogpost2 from '../assets/blogpost2.png'; // Import the BlogPost2 image
+import blogpost3 from '../assets/blogpost3.png'; // Import the BlogPost3 image
 import '../pages.css'; // Import the CSS file for LandingPage styles
 
 const LandingPage = () => {
@@ -209,7 +209,7 @@ const LandingPage = () => {
         {/* New Blog Container with Title and Text */}
         <div className="blog-container">
           <div className="blog-title">
-            Latest Blog Posts
+          Blog posts for the community
           </div>
           <div className="blog-text">
             Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
@@ -233,9 +233,43 @@ const LandingPage = () => {
           </div>
 
           {/* New BlogPost2 Container (can be moved anywhere inside the blog-container) */}
-          <div className="blogpost2" style={{ backgroundColor: 'aquamarine', position: 'absolute' }}>
+          <div className="blogpost2" style={{  position: 'absolute' }}>
             <img src={blogpost2} alt="BlogPost2" className="blogpost2-image" />
+            <div className="blogpost2-author">
+            Demi WIlkinson • 16 Jan 2022
+            </div>
+            {/* New Title below Author */}
+            <div className="blogpost2-title">
+            PM mental models
+            </div>
+            {/* New Text below Title */}
+            <div className="blogpost2-text">
+            Mental models are simple expressions of complex processes or relationships.
+            </div>
           </div>
+
+          {/* New BlogPost3 Container (can be moved anywhere inside the blog-container) */}
+          <div className="blogpost3" style={{  position: 'absolute' }}>
+            <img src={blogpost3} alt="BlogPost3" className="blogpost3-image" />
+            <div className="blogpost3-author">
+            Candice Wu • 15 Jan 2022
+            </div>
+            {/* New Title below Author */}
+            <div className="blogpost3-title">
+            What is Wireframing?
+            </div>
+            {/* New Text below Title */}
+            <div className="blogpost3-text">
+            Introduction to Wireframing and its Principles. Learn from the best in the industry.
+            </div>
+          </div>
+
+
+          <div className="rectangle5">
+            <div className="rectangle6">
+            </div>
+          </div>
+
         </div>
       </div>
 
@@ -245,11 +279,11 @@ const LandingPage = () => {
       {/* New button images below the review section */}
       <div className="button-container">
         <div className="button2-container">
-          <img src={button2} alt="Button 2" className="button2" />
+        <button className="Button2">Conatact Us</button>
         </div>
 
         <div className="button1-container">
-          <img src={button1} alt="Button 1" className="button1" />
+        <button className="Button1">Join Us</button>
         </div>
       </div>
     </div>
