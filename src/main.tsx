@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom/client'; // Import the createRoot API
 import './index.css'; // Import global styles if any
 import './pages.css'; // Import pages.css for the styles of LandingPage and other pages
 import './pages2.css'; // Import the CSS file for LandingPage styles
-import './pages3.css'; // Import the CSS file for LandingPage styles
 
 
 import App from './App';
