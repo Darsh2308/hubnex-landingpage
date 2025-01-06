@@ -1,8 +1,8 @@
-// src/pages/TermsAndConditions.tsx
+// src/pages/PrivacyPolicy.tsx
 import React from 'react';
-import '../pages2.css'; // Import the CSS file for LandingPage styles
+import '../pages2.css'; // Import the CSS file for styles
 
-const TermsAndConditions: React.FC = () => {
+const PrivacyPolicy: React.FC = () => {
   return (
     <div>
       <h1 className="terms-title"><u>TERMS AND CONDITIONS</u></h1>
@@ -30,4 +30,4 @@ const TermsAndConditions: React.FC = () => {
   );
 };
 
-export default TermsAndConditions;
+export default PrivacyPolicy;

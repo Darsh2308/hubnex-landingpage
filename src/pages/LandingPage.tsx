@@ -1,7 +1,6 @@
 import circle8 from '../assets/Circle8.png'; // Import the Circle8 image
 import circle9 from '../assets/Circle9.png'; // Import the Circle9 image
 import company from '../assets/Companies.png'; // Import the Company image
-import button2 from '../assets/Button2.png'; // Import the Button2 image
 import benefits from '../assets/benefits.png'; // Import the Benefits image
 import frame24 from '../assets/Frame 24.png'; // Import the Frame24 image
 import subcontainer3Image from '../assets/casestudycontainer.png'; // Import the Subcontainer3 image

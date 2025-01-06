@@ -45,9 +45,9 @@ const Footer: React.FC = () => {
             <div className="footer-column-2">
               <h3 className="column-title">Help</h3>
               <ul className="column-items">
-                <li><a href="#">Grievance Redressal Policy</a></li>
+                <li><Link to="/grievance-redressal-policy">Grievance Redressal Policy</Link></li>
                 <li><Link to="/terms-and-conditions">Terms & Conditions</Link></li> {/* Updated link to redirect to Terms & Conditions page */}
-                <li><a href="#">Privacy Policy</a></li>
+                <li><Link to="/privacy-policy">Privacy Policy</Link></li>
               </ul>
             </div>
 

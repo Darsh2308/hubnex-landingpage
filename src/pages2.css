@@ -1,0 +1,87 @@
+/* Add this to your pages2.css file or wherever appropriate */
+.terms-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 48.67px;
+    font-weight: 600;
+    line-height: 59.48px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    width: 748.91px;
+    height: 60px;
+    top: -5px;
+    left: 346px;
+    gap: 0px;
+    opacity: 1;
+    margin-left: 400px;
+    margin-top: 150px;
+  }
+  
+  .terms-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4B5262;
+    margin-left: 200px;
+  }
+
+  /* Add this to your pages2.css file or wherever appropriate */
+.policy-details {
+    font-family: 'Inter', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #101828;
+    margin-left: 200px;
+  }
+  
+
+  .policy-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4B5262;
+    margin-left: 200px;
+  }
+
+  /* In your CSS file */
+.governance-framework {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #101828;
+    margin-left: 200px;
+  }
+  
+  .governance-text {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #4B5262;
+    margin-left: 200px;
+  }

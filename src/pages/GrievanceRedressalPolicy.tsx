@@ -1,11 +1,11 @@
-// src/pages/TermsAndConditions.tsx
+// src/pages/GrievanceRedressalPolicy.tsx
 import React from 'react';
-import '../pages2.css'; // Import the CSS file for LandingPage styles
+import '../pages2.css'; // Import the CSS file for styles
 
-const TermsAndConditions: React.FC = () => {
+const GrievanceRedressalPolicy: React.FC = () => {
   return (
     <div>
-      <h1 className="terms-title"><u>TERMS AND CONDITIONS</u></h1>
+      <h1 className="terms-title"><u>GRIEVANCE REDRESSAL POLICY</u></h1>
       <p className="terms-text">
         Mantarav Private Limited (ExMyB or We), believes in ensuring that all the Users of the website of ExMyB,<br/> www.exmyb.com (Platform) are able to get best out of the Services featured therein. Therefore, ExMyB believes in<br/> addressing any grievances or concerns that the Users have with regard to their experience on the Platform. Where any<br/> grievance is addressed to the Grievance Officer, the User shall receive an acknowledgement of the grievance or<br/> complaint within 48 (Forty-Eight) hours of receipt.
         <br /><br />
@@ -30,4 +30,4 @@ const TermsAndConditions: React.FC = () => {
   );
 };
 
-export default TermsAndConditions;
+export default GrievanceRedressalPolicy;
